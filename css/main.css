@@ -41,7 +41,6 @@ body {
     display: inline-block;
     width: 40%;
     padding: 30px;
-    border: 15px solid red;
     float: left;
     background-color: blueviolet;
 }
