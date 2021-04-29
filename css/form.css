@@ -114,11 +114,6 @@ input {
     border-bottom: 1px solid #999;
 }
 
-::placeholder {
-    color: #999;
-    
-}
-
 button {
     float:left;
     padding: 10px 40px;
