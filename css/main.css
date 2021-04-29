@@ -116,7 +116,15 @@ input {
 
 ::placeholder {
     color: #999;
-    
+    font-style: italic;
+}
+
+input:focus{
+    background-color: yellow;
+}
+
+input:focus-visible{
+    outline-color: red;
 }
 
 button {
@@ -128,6 +136,10 @@ button {
     font-size: 18px;
     line-height: 20px;
     border-radius: 21px;
+}
+
+button:hover {
+    background-color: red;
 }
 
 .form-row > span {
